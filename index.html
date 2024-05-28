@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<!--
+	This website is a showcase of all my data analytics projects.
+-->
+<html>
+	<head>
+		<title>Satyam Shah - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">About Me</a></li>
+					<li><a href="#FeaturedProject">Featured Project</a></li>
+					<li><a href="#otherProjects">Other Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images\Profile-Image.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>About Me</h1>
+							</header>
+							<p>Welcome! My name is Satyam Shah, and I am currently pursuing a Master's degree in the Information Management program at the University of Illinois at Urbana-Champaign. With a strong aspiration to become a data analyst, I am honing my skills in <i>database management</i>, <i>data visualization</i>, <i>Python programming</i>, and <i>machine learning</i>.</p>
+    						<div id="about-more-content" style="display: none;">
+								<p>My journey into data analysis is driven by a deep curiosity to uncover insights and tell compelling stories through data. I am constantly exploring new techniques and tools to enhance my understanding and proficiency in this dynamic field. This portfolio is a reflection of my dedication, showcasing a variety of projects that demonstrate my growing expertise and practical experience.</p>
+								<p>Each project has been an opportunity to tackle real-world problems and contribute meaningful solutions, bridging the gap between theoretical knowledge and practical application. I invite you to explore my work and see how I leverage data to drive impactful results.</p>
+							</div>
+							<button id="about-expand-btn" onclick="toggleAboutContent()">Expand for More</button>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- FeaturedProject -->
+			<article id="FeaturedProject" class="wrapper style2">
+				<div class="container">
+					<header>
+						 <h2>Featured Project</h2>
+    <div class="project"><article class="box style1", style="font-size: large;">
+        <img src="images\featured-project.jpg" alt="Housing Rent Analysis Tool">
+        <h3>Housing Rent Analysis Tool</h3>
+        <p>This project aims to develop a comprehensive tool for analyzing 'fair market rates' (FMR) in housing rents at the metropolitan area level and understanding their relationship with economic indicators such as the consumer price index (CPI). Leveraging advanced data analytics and visualization techniques, it provides valuable insights into government housing programs.</p>
+        <div id="feature-more-content" style="display: none;">
+			<p>Undertaken as part of the 'Programming and Quality in Analytics' course, this project showcases my proficiency in Python, with a strong emphasis on programming quality and best practices. While some aspects of the analysis could benefit from time-series techniques, the focus here is on core Python libraries, including Pandas and NumPy.</p>
+			<p>In this project, I fetched data from five different sources, processed it into a usable format, and gained experience working with APIs. A key aspect was ensuring code reusability, making the project modular and adaptable. The tool can fetch data for any metropolitan area and perform analyses, updating with the latest available data for accurate insights.</p>
+			<p>The project tests two primary hypotheses:<br>
+			<strong>Hypothesis 1:</strong> There is a correlation between FMR and CPI, where CPI influences FMR with a time lag.<br>
+			<strong>Hypothesis 2:</strong> Anomalies in FMR prices can be detected through the study of FMR and CPI, indicating regulatory interventions in housing rents.</p>
+		</div>
+		<button id="feature-expand-btn" onclick="toggleFeatureContent()">Expand for More</button><br><br>
+		<a href="https://github.com/shah-satyam/2024Spr_projects" target="_blank">View on GitHub</a>
+	</article>
+	</div>
+	</article>
+
+		<!-- otherProjects -->
+			<article id="otherProjects" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Other Projects</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#">Chicago Crime Dashboard</a></h3>
+								<p>Add a project summary</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Student Dropout Prediction: A comparative analysis of machine learning techniques</a></h3>
+								<p>Add a project summary</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Efficient Market Hypothesis</a></h3>
+								<p>Add a project summary</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+						<div class="col-12">
+							<h3>Contact Information</h3>
+								<p>Personal Email ID: <a href="mailto:satyamshah129@gmail.com">stayamshah129@gmail.com</a><br>
+								School Email ID: <a href="mailto:satyam2@illinois.edu">satyam2@illinois.edu</a><br>
+								Location: Champaign, Illinois - 61820</p>
+							<h3>My Socials</h3>
+							<ul class="social">
+								<li><a href="https://www.linkedin.com/in/satyam--shah" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/shah-satyam" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							</ul>
+							<hr />
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				function toggleAboutContent() {
+					var content = document.getElementById("about-more-content");
+					var button = document.getElementById("about-expand-btn");
+					if (content.style.display === "none") {
+						content.style.display = "block";
+						button.textContent = "Show Less";
+					} else {
+						content.style.display = "none";
+						button.textContent = "Expand for More";
+					}
+       			 }
+				function toggleFeatureContent() {
+					var content = document.getElementById("feature-more-content");
+					var button = document.getElementById("feature-expand-btn");
+					if (content.style.display === "none") {
+						content.style.display = "block";
+						button.textContent = "Show Less";
+					} else {
+						content.style.display = "none";
+						button.textContent = "Expand for More";
+					}
+				}
+			</script>
+
+	</body>
+</html>

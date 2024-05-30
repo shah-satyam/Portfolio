@@ -12,9 +12,9 @@
 	<body class="is-preload">
 
 		<!-- Nav -->
-			<nav id="nav" style="background-color:antiquewhite">
+			<nav id="nav" style="background-color:#4fbad6;">
 				<ul class="cotainer">
-					<li><a href="#top" style="color: #303030">About Me</a></li>
+					<li><a href="#top" style="color: black">About Me</a></li>
 					<li><a href="#FeaturedProject" style="color: black">Featured</a></li>
 					<li><a href="#otherProjects" style="color: black">Portfolio</a></li>
 					<li><a href="#contact" style="color: black">Contact</a></li>
@@ -30,14 +30,14 @@
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>About Me</h1>
+								<h1 style="font-size:300%;"">About Me</h1>
 							</header>
-							<p align="justify">Hi! I am Satyam Shah, a student at the University of Illinois (Urbana-Champaign) pursuing Masters in Information Management. With a strong aspiration to become a data analyst, I am honing my skills in <i>database management</i>, <i>data visualization</i>, <i>Python programming</i>, and <i>machine learning</i>.</p>
+							<p align="justify" style="font-size:150%;">Hi! I am Satyam Shah, a student at the University of Illinois (Urbana-Champaign) pursuing Masters in Information Management. With a strong aspiration to become a data analyst, I am honing my skills in <i>database management</i>, <i>data visualization</i>, <i>Python programming</i>, and <i>machine learning</i>.</p>
     						<div id="about-more-content" style="display: none;">
-								<p align="justify">My journey into data analysis is driven by a deep curiosity to uncover insights and tell compelling stories through data. I am constantly exploring new techniques and tools to enhance my understanding and proficiency in this dynamic field. This portfolio is a reflection of my dedication, showcasing a variety of projects that demonstrate my growing expertise and practical experience.</p>
-								<p align="justify">Each project has been an opportunity to tackle real-world problems and contribute meaningful solutions, bridging the gap between theoretical knowledge and practical application. I invite you to explore my work and see how I leverage data to drive impactful results.</p>
+								<p align="justify" style="font-size:150%;">My journey into data analysis is driven by a deep curiosity to uncover insights and tell compelling stories through data. I am constantly exploring new techniques and tools to enhance my understanding and proficiency in this dynamic field. This portfolio is a reflection of my dedication, showcasing a variety of projects that demonstrate my growing expertise and practical experience.</p>
+								<p align="justify" style="font-size:150%;">Each project has been an opportunity to tackle real-world problems and contribute meaningful solutions, bridging the gap between theoretical knowledge and practical application. I invite you to explore my work and see how I leverage data to drive impactful results.</p>
 							</div>
-							<button id="about-expand-btn" onclick="toggleAboutContent()" style="padding: 1% 1% 1% 1%;">Expand for More</button>
+							<button id="about-expand-btn" onclick="toggleAboutContent()" style="padding: 1% 1% 1% 1%; color: #4fbad6;">Expand for More</button>
 						</div>
 					</div>
 				</div>
@@ -47,50 +47,41 @@
 			<article id="FeaturedProject" class="wrapper style4" style="padding-top: 2%; padding-bottom: 2%; padding: auto;">
 				<div class="container">
 					<header>
-						 <h2>Featured Project</h2>
+						 <h1 style="font-size:275%;">Featured Project</h1>
 					</header>
 				<div class="project">
-					<span class="image center"><img src="images\featured-project.jpg" alt="Housing Rent Analysis Tool" /></span>
-					<h3>Housing Rent Analysis Tool</h3>
-					<p style="font-size: larger" align="justify">This project aims to develop a comprehensive tool for analyzing 'fair market rates' (FMR) in housing rents at the metropolitan area level and understanding their relationship with economic indicators such as the consumer price index (CPI). Leveraging advanced data analytics and visualization techniques, it provides valuable insights into government housing programs.</p>
-					<div id="feature-more-content" style="font-size: larger; display: none;">
-						<p align="justify">Undertaken as part of the 'Programming and Quality in Analytics' course, this project showcases my proficiency in Python, with a strong emphasis on programming quality and best practices. While some aspects of the analysis could benefit from time-series techniques, the focus here is on core Python libraries, including Pandas and NumPy.</p>
-						<p align="justify">In this project, I fetched data from five different sources, processed it into a usable format, and gained experience working with APIs. A key aspect was ensuring code reusability, making the project modular and adaptable. The tool can fetch data for any metropolitan area and perform analyses, updating with the latest available data for accurate insights.</p>
-						<p align="justify">The project tests two primary hypotheses:<br>
-						<i>Hypothesis 1:</i> There is a correlation between FMR and CPI, where CPI influences FMR with a time lag.<br>
-						<i>Hypothesis 2:</i> Anomalies in FMR prices can be detected through the study of FMR and CPI, indicating regulatory interventions in housing rents.</p>
-					</div>
-					<button id="feature-expand-btn" onclick="toggleFeatureContent()" style="padding: 0.5% 0.5% 0.5% 0.5%;">Expand for More</button><br><br>
-					<a href="https://github.com/shah-satyam/2024Spr_projects" target="_blank">View on GitHub</a>
+					<span class="image center"><a href="https://github.com/shah-satyam/2024Spr_projects" target="_blank"><img src="images\featured-project.jpg" alt="Housing Rent Analysis Tool" /></a></span>
+					<h2><a href="https://github.com/shah-satyam/2024Spr_projects" target="_blank">Housing Rent Analysis Tool</a></h2>
+					<p style="font-size: 150%" align="justify">This project aims to develop a comprehensive tool for analyzing 'fair market rates' (FMR) in housing rents at the metropolitan area level and understanding their relationship with economic indicators such as the consumer price index (CPI). Leveraging advanced data analytics and visualization techniques, it provides valuable insights into government housing programs.</p>
 				</div>
-				</article>
+			</article>
 
 		<!-- otherProjects -->
 			<article id="otherProjects" class="wrapper style4" style="padding: 2% 0px 0px 0px;">
 				<div class="container" style="padding: 0px 0px 0px 0px;">
 					<header>
-						<h2>Other Projects</h2>
+						<h1 style="font-size:275%;">Other Projects</h1>
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="wrapper style4" style="padding: 0px 0px 10% 0px;">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Chicago Crime Dashboard</a></h3>
-								<p>Add a project summary</p>
+								<a href="https://public.tableau.com/views/ChicagoCrimeDashboard2014-2024/ChicagoCrimeAnalysis?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" class="image fit" target="_blank"><img src="images/Chicago_Crime.jpg" alt="" width="200" height="200"/></a>
+								<h2 style="font-size:150%;"><a href="https://public.tableau.com/views/ChicagoCrimeDashboard2014-2024/ChicagoCrimeAnalysis?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" target="_blank">Chicago Crime<br>Dashboard</a></h2>
+								<p align="justify">This project aims to enhance understanding of crime in Chicago through effective dashboards. THe story book consists of 4 dashboards, each focusing on different aspects of crime.</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="wrapper style4" style="padding: 0px 0px 10% 0px;">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Student Dropout Prediction: A comparative analysis of machine learning techniques</a></h3>
-								<p>Add a project summary</p>
+								<a href="https://github.com/shah-satyam/IS_517_Student_Dropout_Predction" class="image fit" target="_blank"><img src="images/student_dropout.jpg" alt="" width="200" height="200"/></a>
+								<h2 style="font-size:150%;"><a href="https://github.com/shah-satyam/IS_517_Student_Dropout_Predction" target="_blank">Student Dropout<br>Prediction</a></h2>
+								<p align="justify">This project aims to compare various data processing techniques, balancing methods, and feature selection approaches. By systematically evaluating different combinations, we seek to identify the optimal approach for a student dropout dataset.</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small" >
 							<article class="wrapper style4" style="padding: 0px 0px 10% 0px;">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Efficient Market Hypothesis</a></h3>
-								<p>Add a project summary</p>
+								<a href="https://github.com/shah-satyam/Challenging_The_Efficient_Market_Hypothesis" class="image fit" target="_blank"><img src="images/EMH.jpg" alt="" width="200" height="200"/></a>
+								<h2 style="font-size:150%;"><a href="https://github.com/shah-satyam/Challenging_The_Efficient_Market_Hypothesis" target="_blank">Challenging The Efficient Market Hypothesis</a></h2>
+								<p align="justify">This study challenges the Efficient Market Hypothesis (EMH) by comparing the performance of long-term investment strategies against two alternative approaches: mean reversion and momentum-based tactical allocation. Simulations are conducted using real-world data to assess the effectiveness of each strategy in achieving superior returns.</p>
 							</article>
 						</div>
 					</div>
@@ -98,7 +89,7 @@
 			</article>
 
 		<!-- Contact -->
-			<article id="contact" class="wrapper style4" style="padding-top: 2%; padding-bottom: 0%">
+			<article id="contact" class="wrapper style4" style="padding-top: 2%; padding-bottom: 1%;">
 				<div class="container medium">
 						<div class="col-12">
 							<h3>Contact Information</h3>
@@ -107,10 +98,9 @@
 								Location: Champaign, Illinois - 61820</p>
 							<h3>My Socials</h3>
 							<ul class="social">
-								<li><a href="https://www.linkedin.com/in/satyam--shah" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/shah-satyam" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/satyam--shah" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/shah-satyam" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
 							</ul>
-							<hr />
 						</div>
 					</div>
 				</div>
